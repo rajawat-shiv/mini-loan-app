@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/api', // Update this to your backend URL if different
+    // baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://mini-loan-app-xw6c.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
     },
